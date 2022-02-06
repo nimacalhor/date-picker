@@ -1,5 +1,5 @@
 class DateView {
-    #persianWeekdays = ["", "یکشنبه", "دوشنبه", "سه شنبه", "چهارشبه", "پنجشنبه", "جمعه", "شنبه"];
+    #persianWeekdays = ["_", "یکشنبه", "دوشنبه", "سه شنبه", "چهارشبه", "پنجشنبه", "جمعه", "شنبه"];
     #formatterOptions = {month:"long", day:"2-digit", year:"numeric"};
     #date;
     #day;
